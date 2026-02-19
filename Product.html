@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product.HTML</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: url("hyas.webp") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    nav {
+        background: rgba(255, 255, 255, 0.85);
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav a {
+        margin: 0 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color: maroon;
+        padding: 5px 12px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        background: maroon;  
+        color: white;
+        transform: scale(1.1);
+    }
+
+    nav a:active {
+        transform: scale(0.9);
+    }
+
+    .header {
+        text-align: center;
+        padding: 25px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+
+    .header h1 {
+        color: maroon;
+        margin: 0;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.9);
+        width: 90%;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card p {
+        margin-top: 15px;
+        color: green;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    @media (max-width: 600px) {
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Welcome to Frothy Fingers</h1>
+</div>
+
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="Event.HTML">EVENTS</a>
+    <a href="CONTACT.html">CONTACT US</a>
+    <a href="Product.html">PRODUCTS</a>
+</nav>
+
+<div class="card">
+    <img src="kens.jpg" alt="">
+    <p>A waffle with ham and itlog provides several vitamins, including Vitamin A for eye health, B-vitamins (B1, B2, B3, B6, and B12) for energy and brain function, Vitamin D for strong bones, and a small amount of Vitamin E for cell protection.</p>
+</div>
+
+<div class="card">
+    <img src="kens2.jpg" alt="">
+    <p>Fries with cheese are crispy potatoes topped with melted cheese that provide energy, protein, and vitamins like A, B6, and C, although they should be eaten in moderation because they can be high in fat and salt.</p>
+</div>
+
+<div class="card">
+    <img src="kens3.jpg" alt="">
+    <p>Strawberry milk is a creamy, sweet dairy drink enriched with vitamins and calcium, offering energy, antioxidant benefits, and bone-strengthening nutrients, with typical values per cup including about 150–200 calories, 7–8 g protein, and vitamins A, D, B2, B12, and C.</p>
+</div>
+
+<div class="card">
+    <img src="kens1.jpg" alt="">
+    <p>Carbonara is a rich Italian pasta dish made with eggs, cheese, black pepper, and crispy cured pork, offering high protein, essential vitamins (like A, D, B12), minerals such as calcium and iron, and providing around 520–650 calories per serving for a satisfying, energy-boosting meal.</p>
+</div>
+
+</body>
+</html>
